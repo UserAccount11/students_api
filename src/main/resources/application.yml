@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    initialization-mode: always
+
+status:
+  true: ACTIVO
+  false: INACTIVO
