@@ -39,5 +39,6 @@ public class CustomResponseEntityExceptionHandler {
         return ResponseEntity.status(status != null ? status : HttpStatus.INTERNAL_SERVER_ERROR)
                 .body(new ErrorResponse(ex.getMessage()));
     }
+
 }
 
